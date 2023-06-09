@@ -1,0 +1,11 @@
+.divclass{
+    height: 50vh;
+    width: 50vw;
+    background-color:grey;
+}
+
+.img-bg{
+    
+    background-image:url(https://picsum.photos/900);
+    background-repeat: no-repeat;
+}
