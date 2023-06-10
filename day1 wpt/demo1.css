@@ -1,0 +1,21 @@
+p{
+     color:red;
+     background-color:black;
+}
+
+h1{
+    color:aqua;
+    height: 40%;
+}
+
+h2{
+    color:brown
+}
+
+#h2-bg{
+     color:black
+}
+
+.p-background{
+    background-color:aquamarine
+}

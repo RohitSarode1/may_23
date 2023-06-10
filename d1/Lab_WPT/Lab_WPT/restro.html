@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant</title>
+  <style>
+    /* Add some basic styling */
+    body {
+
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('bg.jpeg'); /* Add the background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .image-container {
+      width: 30%;
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      transition: opacity 0.5s ease; /* Add the transition property */
+    }
+    .image-container img:hover {
+      opacity: 0.8; /* Add the hover state to change the opacity */
+    }
+    .top-right-buttons {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .button {
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="top-right-buttons">
+        <a class="button" href="order.html">ORDER</a>
+        <a class="button" href="menu.html">MENU</a>
+    </div>
+    
+    <h1>माझा KITCHEN</h1>
+    
+    <div class="image-container">
+      <img src="jbhakar.jpeg" alt="Special Dish 1">
+      
+    </div>
+    
+    <div class="image-container">
+      <img src="bjal.jpg" alt="Special Dish 2">
+      
+    </div>
+    
+    <div class="image-container">
+      <img src="dal.jpeg" alt="Special Dish 3">
+      
+    </div>
+  </div>
+</body>
+</html>

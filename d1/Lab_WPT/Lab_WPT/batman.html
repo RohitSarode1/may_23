@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrity Info</title>
+  <style>
+    body{
+        background-color: bisque;
+        font-family:"Comic Sans MS", cursive, sans-serif ;
+    }
+    
+    .celebrity-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 20px;
+    }
+
+    .celebrity-image-container {
+      flex-basis: 50%;
+      max-width: 50%;
+      position: relative;
+    }
+
+    .celebrity-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .celebrity-info {
+      flex-basis: 50%;
+      padding: 0 20px;
+    }
+
+    .celebrity-info h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="celebrity-container">
+    <div class="celebrity-image-container">
+      <img class="celebrity-image" src="bale.jpeg" alt="Christian Bale">
+    </div>
+    <div class="celebrity-info">
+      <h2>Christian Bale</h2>
+      <p>Date of Birth: <span id="dob">January 30, 1974</span></p>
+      <p>Occupation: <span id="occupation">Actor</span></p>
+      <p>Description: <span id="description">Christian Bale is a British actor known for his versatility and intense performances. He has portrayed a wide range of characters and has received critical acclaim for his roles in movies like "The Dark Knight" trilogy, "American Psycho," and "The Machinist."</span></p>
+      <p>IMDB: <a href="https://www.imdb.com/name/nm0000288/" id="imdblink">Click here 👆</a></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!-- cuisine -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotel Cuisine</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: beige;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .menu-item1 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .menu-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .menu-item img {
+        width: 3550;
+        height: 350px;
+        margin-right: 20px;
+        border-radius: 10px;
+        border-style: groove;
+        border-width: 20px;
+      }
+      .menu-item1 img {
+        width: 3550;
+        height: 350px;
+        margin-left: 20px;
+        border-radius: 25px;
+        border-style: groove;
+        border-width: 20px;
+      }
+
+      .menu-item-details {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        font-size: 24px;
+      }
+
+      .menu-item-details h3 {
+        margin: 0;
+      }
+
+      .menu-item-details p {
+        margin: 0;
+      }
+
+      .large-button {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #a9f0ab;
+        margin-left: 10px;
+        border-radius: 25%;
+        border: none;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: end;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hotel Cuisine</h1>
+    <div class="buttons">
+      <button class="large-button" style="width: 200px; height: 50px">
+        Menu
+      </button>
+      <button class="large-button" style="width: 200px; height: 50px">
+        Home
+      </button>
+      <button class="large-button" style="width: 200px; height: 50px">
+        Contact
+      </button>
+      <button class="large-button" style="width: 200px; height: 50px">
+        About
+      </button>
+    </div>
+    <!-- <br> -->
+    <!-- <br> -->
+
+    <div class="menu-item">
+      <img src="pasta.jpg" alt="Pasta" />
+      <div class="menu-item-details">
+        <h3>Pasta</h3>
+        <p>Delicious pasta with your choice of sauce.</p>
+        <p>Price: $10.99</p>
+      </div>
+    </div>
+
+    <div class="menu-item1">
+      <div class="menu-item-details">
+        <h3>Pizza</h3>
+        <p>Freshly baked pizza with a variety of toppings.</p>
+        <p>Price: $12.99</p>
+      </div>
+      <img src="pizza.jpg" alt="Pizza" />
+    </div>
+
+    <div class="menu-item">
+      <img src="burger.jpg" alt="Burger" />
+      <div class="menu-item-details">
+        <h3>Burger</h3>
+        <p>Juicy burger with all the fixings.</p>
+        <p>Price: $8.99</p>
+      </div>
+    </div>
+
+    <div class="menu-item1">
+      <div class="menu-item-details">
+        <h3>Salad</h3>
+        <p>Fresh and healthy salad with a variety of ingredients.</p>
+        <p>Price: $7.99</p>
+      </div>
+      <img src="salad1.jpg" alt="Salad" />
+    </div>
+  </body>
+</html>
